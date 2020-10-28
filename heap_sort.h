@@ -2,7 +2,7 @@
 #include "random.h"
 
 template <typename T>
-class heap_sort
+class heap
 {
 	public:
 		static void sort(T* arr, size_t n, const comparator<T>& comp=fwd_comparator<T>())
